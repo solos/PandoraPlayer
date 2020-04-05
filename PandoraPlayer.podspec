@@ -9,15 +9,15 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.author       = { "Applikey Solutions" => "welcome@applikeysolutions.com" }
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "11.0"
 
-  s.source       = { :git => "https://github.com/AppliKeySolutions/PandoraPlayer.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/solos/PandoraPlayer.git", :tag => "#{s.version}" }
 
   s.source_files = "Player", "Player/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   s.resources = "Player/**/*.{storyboard,xib,xcassets}"
 
-  s.dependency "AudioKit", "4.0.3"
+  s.dependency "AudioKit", "4.9.5"
 
 end
