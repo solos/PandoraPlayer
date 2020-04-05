@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PandoraPlayer"
-  s.version      = "1.2"
+  s.version      = "1.3"
   s.summary      = "Music Player for iOS"
   s.description  = "A simple iOS music player library written in Swift"
 
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
 
   s.author       = { "Applikey Solutions" => "welcome@applikeysolutions.com" }
-  s.platform     = :ios, "11.0"
+  s.platform     = :ios, "9.0"
 
   s.source       = { :git => "https://github.com/solos/PandoraPlayer.git", :tag => "#{s.version}" }
 
